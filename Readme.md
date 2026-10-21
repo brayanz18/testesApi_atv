@@ -33,7 +33,7 @@ Para compilar o projeto e executar os testes, utilizei o comando
 
 Após os ajustes, o terminal apareceu build sucess, indicando que a execução foi concluída com sucesso 
 
-9. Conclusão
+8. Conclusão
 
 A atividade permitiu desenvolver uma API REST e aplicar na prática os testes automatizados para verificar suas funcionalidades e respostas vê-las funcionando na prática. O uso do JUnit 5, Mockito e JaCoCO ajudou a avaliar o comportamento da aplicação, crrigir problemas e analisar a cobertura do código, que atingiu 91% ma execução registrada.
 
