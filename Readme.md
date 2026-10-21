@@ -33,25 +33,6 @@ Para compilar o projeto e executar os testes, utilizei o comando
 
 Após os ajustes, o terminal apareceu build sucess, indicando que a execução foi concluída com sucesso 
 
-8. Conceitos teóricos 
-A atividade também envolve conceitos importantes 
-
- 1- Erro, defeito e falha: esses são conceitos relacionados as causa e manfestações de problemas de software.
-    
-    exemplo de erro (Humano): O programador esquece de configurar o tratamento para quando um usuário não é encontrado.
-
-    exemplo de defeito(Codigo): A aplicação lança a exceção UsuarioNaoEncontradoException, mas não está configurada para retornar o status HTTP esperado.
-
-    exemplo de falha(durante a execução): Ao buscar um usuário inexistente, a requisição não retorna a resposta HTTP 404 esperada e acaba gerando um erro durante o teste.
-
- 2- Pirâmide de testes: Organização dos testes unitarios, tanto de integração quanto de ponta a ponta
-
- 3- Caixa preta e caixa branca: Abordagens para testar o comportamento externo e e aspectos internos do código
-
- 4- CI/CD: São práticas de automação da integração, entrega e impantação de sofrware
-
- 5- JaCoCo: É a ferramenta utilizada para medir a cobertura do código pelos testes.
-
 9. Conclusão
 
 A atividade permitiu desenvolver uma API REST e aplicar na prática os testes automatizados para verificar suas funcionalidades e respostas vê-las funcionando na prática. O uso do JUnit 5, Mockito e JaCoCO ajudou a avaliar o comportamento da aplicação, crrigir problemas e analisar a cobertura do código, que atingiu 91% ma execução registrada.
